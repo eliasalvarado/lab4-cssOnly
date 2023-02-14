@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cabeza_frontal {
+  position: absolute;
+  top: 30%;
+  height: 340px;
+  width: 445px;
+  background-color: #e07d1f;
+  transform: rotateY(45deg) rotateX(20deg) rotateZ(20deg);
+  transform-style: preserve-3d;
+}
+
+.mancha1_i {
+  position: absolute;
+  height: 30px;
+  width: 55px;
+  background-color: #c86217;
+}
+
+.mancha2_i {
+  position: absolute;
+  top: 30px;
+  height: 90px;
+  width: 55px;
+  background-color: #cb6920;
+}
+
+.mancha3_i {
+  position: absolute;
+  top: 120px;
+  height: 55px;
+  width: 55px;
+  background-color: #af5121;
+}
+
+.mancha3-1_i {
+  position: absolute;
+  top: 120px;
+  left: 55px;
+  height: 55px;
+  width: 55px;
+  background-color: #cb6920;
+}
+
+.ojo_i {
+  position: absolute;
+  top: 175px;
+  height: 55px;
+  width: 110px;
+  background-color: #000000;
+}
+
+.mancha4_i {
+  position: absolute;
+  top: 230px;
+  height: 55px;
+  width: 110px;
+  background-color: #cb6920;
+}
+
+.mancha4-1_i {
+  position: absolute;
+  top: 230px;
+  left: 110px;
+  height: 55px;
+  width: 55px;
+  background-color: #e9d8d1;
+}
+
+.mancha5_i {
+  position: absolute;
+  top: 285px;
+  height: 55px;
+  width: 110px;
+  background-color: #e7d8d1;
+}
+
+.macha_arriba_nariz {
+  position: absolute;
+  top: 175px;
+  left: 165px;
+  height: 55px;
+  width: 116px;
+  background-color: #e78e42;
+}
+
+.nariz {
+  position: absolute;
+  top: 230px;
+  left: 165px;
+  height: 55px;
+  width: 116px;
+  background-color: #000000;
+}
+
+.boca {
+  position: absolute;
+  top: 285px;
+  left: 110px;
+  height: 55px;
+  width: 225px;
+  background-color: #f9f5f6;
+}
+
+.mancha1_d {
+  position: relative;
+  float: right;
+  height: 30px;
+  width: 55px;
+  background-color: #c86217;
+}
+
+.mancha2_d {
+  position: relative;
+  float: right;
+  top: 30px;
+  right: -55px;
+  height: 90px;
+  width: 55px;
+  background-color: #cb6920;
+}
+
+.mancha3_d {
+  position: absolute;
+  top: 120px;
+  right: 0;
+  height: 55px;
+  width: 55px;
+  background-color: #af5121;
+}
+
+.mancha3-1_d {
+  position: absolute;
+  top: 120px;
+  right: 55px;
+  height: 55px;
+  width: 55px;
+  background-color: #cb6920;
+}
+
+.ojo_d {
+  position: absolute;
+  top: 175px;
+  right: 0;
+  height: 55px;
+  width: 110px;
+  background-color: #000000;
+}
+
+.mancha4_d {
+  position: absolute;
+  top: 230px;
+  right: 0;
+  height: 55px;
+  width: 110px;
+  background-color: #cb6920;
+}
+
+.mancha4-1_d {
+  position: relative;
+  float: right;
+  top: 230px;
+  height: 55px;
+  width: 55px;
+  background-color: #e9d8d1;
+}
+
+.mancha5_d {
+  position: absolute;
+  top: 285px;
+  right: 0px;
+  height: 55px;
+  width: 110px;
+  background-color: #e7d8d1;
+}
+
+.cabeza_lateral {
+  position: absolute;
+  top: 65%;
+  left: 10%;
+  height: 110px;
+  width: 225px;
+  background-color: #000000;
+  transform: rotateY(45deg) rotateX(20deg) rotateZ(20deg);
+  transform-style: preserve-3d;
+}

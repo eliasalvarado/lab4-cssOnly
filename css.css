@@ -11,19 +11,21 @@
 }
 
 .cabeza {
-  position: relative;
+  position: absolute;
+  left: 100px;
+  height: 200px;
+  width: 200px;
   transform-style: preserve-3d;
+  transform: perspective(700px) rotateX(-20deg) rotateY(-40deg) translateY(50px);
 }
 
 .cabeza_frontal {
   position: absolute;
-  top: 200px;
-  left: 10px;
   height: 340px;
   width: 445px;
   /*background-color: #e07d1f;*/
   background-color: #cd7320;
-  transform: rotateY(45deg) rotateX(20deg) rotateZ(20deg);
+  transform: translateZ(170px);
 }
 
 .mancha1_i {
@@ -138,24 +140,26 @@
 
 .hocico {
   position: absolute;
-  transform: translateZ(1000px);
+  top: 400px;
+  left: 10px;
+  height: 200px;
+  width: 200px;
   transform-style: preserve-3d;
+  transform: perspective(700px) rotateX(-20deg) rotateY(-40deg) translateY(50px);
 }
 
 .hocico_frontal {
   position: absolute;
-  top: 444px;
-  left: 80px;
   height: 110px;
-  width: 225px;
+  width: 350px;
   background-color: #e07d1f;
-  transform: rotateY(45deg) rotateX(20deg) rotateZ(20deg);
+  transform: translateZ(30px);
 }
 
 .manchahocico1_i {
   position: absolute;
   height: 55px;
-  width: 55px;
+  width: 110px;
   background-color: #e9d8d1;
 }
 
@@ -163,15 +167,15 @@
   position: relative;
   float: right;
   height: 55px;
-  width: 55px;
+  width: 110px;
   background-color: #e9d8d1;
 }
 
 .nariz {
   position: absolute;
-  left: 55px;
+  left: 110px;
   height: 55px;
-  width: 116px;
+  width: 130px;
   background-color: #000000;
 }
 
@@ -179,54 +183,48 @@
   position: absolute;
   top: 55px;
   height: 55px;
-  width: 225px;
+  width: 350px;
   background-color: #f9f5f6;
 }
 
 .hocico_top {
   position: absolute;
-  top: 465px;
-  left: 36px;
-  height: 50px;
-  width: 358px;
+  height: 150px;
+  width: 315px;
   background-color: #e07d1f;
-  transform: rotateY(45deg) rotateX(-54deg) rotateZ(20deg) 
-  translateZ(-50px) translateY(-23px);
+  transform: rotateX(90deg) translateZ(90px) translateX(50px);
 }
 
 .mancha_hocicoTop1_i {
   position: absolute;
-  height: 25px;
-  width: 88px;
+  height: 55px;
+  width: 50px;
   background-color: #c86217;
 }
 
 .mancha_hocicoTop1_d {
-  position: relative;
-  float: right;
-  height: 25px;
-  width: 85px;
+  position: absolute;
+  right: 0;
+  height: 55px;
+  width: 50px;
   background-color: #c86217;
 }
 
 .mancha_hocicoTop2 {
   position: absolute;
-  top: 25px;
-  left: 88px;
-  height: 25px;
-  width: 185px;
+  top: 55px;
+  left: 50px;
+  height: 95px;
+  width: 105px;
   background-color: #e78e42;
 }
 
 .hocico_lateral {
   position: absolute;
-  top: 473px;
-  left: 182px;
-  height: 98px;
-  width: 225px;
+  height: 93px;
+  width: 150px;
   background-color: #e07d1f;
-  transform: rotateY(100deg) rotateX(-2deg) rotateZ(7deg)
-  translateX(-4px);
+  transform: rotateY(90deg) translateZ(295px) translateY(-20px) translateX(-10px);
 }
 
 .mancha_hocicoLateral1 {
@@ -247,12 +245,10 @@
 
 .cabeza_lateral {
   position: absolute;
-  top: 190px;
-  left: 350px;
-  height: 345px;
-  width: 320px;
+  height: 340px;
+  width: 340px;
   background: #a75f1c;
-  transform: skew(-20deg) rotateY(54deg) rotateZ(-30deg) translateZ(-2px);
+  transform: rotateY(90deg) translateZ(275px);
 }
 
 .macha_cabeza_lateral1_i {
@@ -361,12 +357,10 @@
 
 .cabeza_top {
   position: absolute;
-  top: -35px;
-  left: 130px;
   height: 350px;
-  width: 430px;
+  width: 440px;
   background: #e07d1f;
-  transform: rotateY(-3deg) rotateX(54deg) rotateZ(36.5deg);
+  transform: rotateX(90deg) translateZ(178px) translateX(8px);
 }
 
 .mancha_lateral_cabeza_top_i {

@@ -7,8 +7,9 @@
 
 .zorro {
   position: absolute;
+  transform-style: preserve-3d;
   top: 50px;
-  left: 50px;
+  left: -100px;
 }
 
 .cabeza {
@@ -17,14 +18,13 @@
   height: 200px;
   width: 200px;
   transform-style: preserve-3d;
-  transform: perspective(700px) rotateX(-20deg) rotateY(-40deg) translateY(50px);
+  transform: perspective(700px) rotateX(-20deg) rotateY(-40deg) rotateZ(-5deg) translateY(100px) translateX(50px) translateZ(-150px);
 }
 
 .cabeza_frontal {
   position: absolute;
   height: 340px;
   width: 445px;
-  /*background-color: #e07d1f;*/
   background-color: #cd7320;
   transform: translateZ(170px);
 }
@@ -141,66 +141,65 @@
 
 .hocico {
   position: absolute;
-  top: 370px;
-  left: -72px;
-  height: 200px;
-  width: 360px;
+  top: 300px;
+  left: 90px;
+  height: 110px;
+  width: 100px;
   transform-style: preserve-3d;
-  transform: rotateZ(-3deg) rotateX(-30deg) rotateY(-55deg) translateY(50px);
-  /*transform: perspective(700px) rotateZ(0deg) rotateX(-30deg) rotateY(-55deg) translateY(50px);*/
+  transform: rotateZ(-3deg) rotateX(-30deg) rotateY(-45deg) translateY(0px) translateX(115px) translateZ(40px);
 }
 
 .hocico_frontal {
   position: absolute;
-  height: 110px;
-  width: 355px;
+  height: 120px;
+  width: 305px;
   background-color: #e07d1f;
-  transform: translateZ(60px) translateX(31px);
+  transform: translateZ(70px) translateX(50px);
 }
 
 .manchahocico1_i {
   position: absolute;
-  height: 55px;
-  width: 70px;
+  height: 58px;
+  width: 60px;
   background-color: #e9d8d1;
 }
 
 .manchahocico1_d {
   position: relative;
   float: right;
-  height: 55px;
-  width: 80px;
+  height: 58px;
+  width: 65px;
   background-color: #e9d8d1;
 }
 
 .nariz {
   position: absolute;
-  left: 70px;
-  height: 55px;
-  width: 210px;
+  left: 60px;
+  height: 58px;
+  width: 180px;
   background-color: #000000;
 }
 
 .boca_frontal {
   position: absolute;
-  top: 55px;
-  height: 55px;
-  width: 360px;
+  bottom: 0;
+  height: 62px;
+  width: 100%;
   background-color: #f9f5f6;
 }
 
 .hocico_top {
   position: absolute;
   height: 150px;
-  width: 360px;
+  width: 305px;
   background-color: #e07d1f;
-  transform: rotateX(90deg) translateZ(90px) translateX(50px);
+  transform: rotateX(90deg) translateZ(75px) translateX(50px) translateY(-5px);
 }
 
 .mancha_hocicoTop1_i {
   position: absolute;
   height: 55px;
-  width: 70px;
+  width: 60px;
   background-color: #c86217;
 }
 
@@ -208,32 +207,32 @@
   position: absolute;
   right: 0;
   height: 55px;
-  width: 80px;
+  width: 65px;
   background-color: #c86217;
 }
 
 .mancha_hocicoTop2 {
   position: absolute;
   top: 55px;
-  left: 70px;
+  left: 60px;
   height: 95px;
-  width: 210px;
+  width: 180px;
   background-color: #e78e42;
 }
 
 .hocico_lateral {
   position: absolute;
-  height: 110px;
+  height: 120px;
   width: 150px;
   background-color: #e07d1f;
-  transform: rotateY(90deg) translateZ(340px) translateY(-18px) translateX(-5px);
+  transform: rotateY(90deg) translateZ(285px) translateY(-5px) translateX(0px);
 }
 
 .mancha_hocicoLateral1 {
   position: relative;
   float: left;
   height: 50%;
-  width: 97px;
+  width: 95px;
   background-color: #c86217;
 }
 
@@ -437,15 +436,15 @@
   top: 30px;
   left: 101px;
   height: 110px;
-  width: 110px;
+  width: 90px;
   transform-style: preserve-3d;
-  transform: perspective(700px) rotateX(-30deg) rotateY(-39deg);
+  transform: perspective(700px) rotateX(-20deg) rotateY(-39deg) translateY(-50px) translateX(65px) translateZ(-70px);
 }
 
 .orejai_frontal {
   position: absolute;
   height: 110px;
-  width: 110px;
+  width: 90px;
   background-color: #e9d8d1;
   transform: translateZ(24px);
 }
@@ -455,7 +454,7 @@
   right: 0;
   bottom: 0;
   height: 55px;
-  width: 55px;
+  width: 50%;
   background-color: #856860;
 }
 
@@ -464,7 +463,7 @@
   height: 110px;
   width: 50px;
   background-color: #000000;
-  transform: rotateY(90deg) translateZ(86px);
+  transform: rotateY(90deg) translateZ(66px);
 }
 
 .mancha_orejai_lateral {
@@ -478,25 +477,25 @@
 .orejai_top {
   position: absolute;
   height: 50px;
-  width: 110.8px;
+  width: 91px;
   background-color: #000000;
   transform: rotateX(90deg) translateZ(26px) translateX(1px);
 }
 
 .oreja_d {
   position: absolute;
-  top: 140px;
-  left: 355px;
+  top: 30px;
+  left: 370px;
   height: 110px;
-  width: 100px;
+  width: 90px;
   transform-style: preserve-3d;
-  transform: perspective(700px) rotateX(-30deg) rotateY(-39deg);
+  transform: perspective(700px) rotateX(-20deg) rotateY(-30deg) translateY(-80px) translateX(200px) translateZ(95px);
 }
 
 .orejad_frontal {
   position: absolute;
   height: 110px;
-  width: 110px;
+  width: 115px;
   background-color: #e9d8d1;
   transform: translateZ(24px);
 }
@@ -514,7 +513,7 @@
   height: 110px;
   width: 50px;
   background-color: #000000;
-  transform: rotateY(90deg) translateZ(86px);
+  transform: rotateY(90deg) translateZ(91px);
 }
 
 .mancha_orejad_lateral {
@@ -528,7 +527,7 @@
 .orejad_top {
   position: absolute;
   height: 50px;
-  width: 110.8px;
+  width: 115px;
   background-color: #000000;
   transform: rotateX(90deg) translateZ(26px) translateX(1px);
 }
@@ -536,14 +535,12 @@
 /**/
 .cola {
   position: absolute;
-  /*top: 450px;
-  left: 355px;*/
   top: 400px;
   left: 300px;
   height: 140px;
   width: 200px;
   transform-style: preserve-3d;
-  transform: perspective(500px) rotateX(-20deg) rotateY(35deg);
+  transform: perspective(500px) rotateX(-15deg) rotateY(5deg) translateX(150px) translateZ(200px) translateY(20px);
 }
 
 .cola_frontal {
@@ -738,18 +735,18 @@
 /**/
 .cuerpo {
   position: absolute;
-  top: 200px;
+  top: 300px;
   left: 300px;
-  height: 200px;
-  width: 400px;
+  height: 400px;
+  width: 800px;
   transform-style: preserve-3d;
-  transform: perspective(1000px) rotateX(-25deg) rotateY(-60deg) translateY(50px);
+  transform: perspective(1000px) rotateX(-25deg) rotateY(-40deg) translateZ(50px) translateZ(-300px);
 }
 
 .cuerpo_frontal {
   position: absolute;
-  height: 200px;
-  width: 400px;
+  height: 400px;
+  width: 800px;
   background-color: #b9a299;
   transform: translateZ(100px);
 }
@@ -758,8 +755,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  height: 55px;
-  width: 345px;
+  height: 20%;
+  width: 90%;
   background-color: #987971;
 }
 
@@ -767,51 +764,59 @@
   position: absolute;
   top: 0;
   right: 0;
-  height: 55px;
-  width: 55px;
+  height: 20%;
+  width: 10%;
   background-color: #a35223;
 }
 
 .mancha2_cuerpo_frontal {
   position: absolute;
-  top: 55px;
-  left: 110px;
-  height: 55px;
-  width: 110px;
+  top: 20%;
+  left: 20%;
+  height: 20%;
+  width: 20%;
   background-color: #987971;
 }
 
 .cuerpo_lateral {
   position: absolute;
-  height: 200px;
-  width: 200px;
-  background-color: #964a14;
-  transform: rotateY(90deg) translateZ(300px);
+  height: 400px;
+  width: 400px;
+  background-color: #874414;
+  transform: rotateY(90deg) translateZ(600px) translateX(100px);
 }
 
 .mancha1_cuerpo_lateral {
   position: absolute;
-  top: 40px;
+  top: 20%;
   right: 0;
-  height: 130px;
-  width: 55px;
+  height: 60%;
+  width: 16%;
   background-color: #a15b1e;
+}
+
+.mancha2_cuerpo_lateral {
+  position: absolute;
+  top: 0;
+  height: 20%;
+  width: 20%;
+  background-color: #a35223;
 }
 
 .cuerpo_top {
   position: absolute;
-  height: 200px;
-  width: 400px;
+  height: 400px;
+  width: 800px;
   background-color: #e07d1f;
-  transform: rotateX(90deg) translateZ(100px) translateX(1px);
+  transform: rotateX(90deg) translateZ(200px) translateY(-100px);
 }
 
 .mancha1_cuerpo_top {
   position: absolute;
   top: 0;
-  left: 33px;
-  height: 33px;
-  width: 33px;
+  left: 9%;
+  height: 16%;
+  width: 9%;
   background-color: #c86b29;
 }
 
@@ -819,107 +824,107 @@
   position: absolute;
   top: 0;
   right: 0;
-  height: 33px;
-  width: 33px;
+  height: 16%;
+  width: 9%;
   background-color: #c86b29;
 }
 
 .mancha2_cuerpo_top {
   position: absolute;
-  top: 33px;
-  left: 132px;
-  height: 33px;
-  width: 66px;
+  top: 16%;
+  left: 36%;
+  height: 16%;
+  width: 18%;
   background-color: #c86b29;
 }
 
 .mancha21_cuerpo_top {
   position: absolute;
-  top: 33px;
+  top: 16%;
   right: 0;
-  height: 33px;
-  width: 66px;
+  height: 16%;
+  width: 9%;
   background-color: #c86b29;
 }
 
 .mancha3_cuerpo_top {
   position: absolute;
-  top: 66px;
-  left: 66px;
-  height: 33px;
-  width: 99px;
+  top: 32%;
+  left: 18%;
+  height: 16%;
+  width: 27%;
   background-color: #c86b29;
 }
 
 .mancha31_cuerpo_top {
   position: absolute;
-  top: 66px;
+  top: 32%;
   right: 0;
-  height: 33px;
-  width: 33px;
+  height: 16%;
+  width: 9%;
   background-color: #c86b29;
 }
 
 .mancha4_cuerpo_top {
   position: absolute;
-  top: 99px;
-  left: 66px;
-  height: 33px;
-  width: 132px;
+  top: 48%;
+  left: 18%;
+  height: 16%;
+  width: 36%;
   background-color: #c86b29;
 }
 
 .mancha41_cuerpo_top {
   position: absolute;
-  top: 99px;
+  top: 48%;
   right: 0;
-  height: 33px;
-  width: 66px;
+  height: 16%;
+  width: 18%;
   background-color: #c86b29;
 }
 
 .mancha5_cuerpo_top {
   position: absolute;
-  top: 132px;
-  left: 66px;
-  height: 33px;
-  width: 99px;
+  top: 64%;
+  left: 18%;
+  height: 16%;
+  width: 27%;
   background-color: #bd611c;
 }
 
 .mancha51_cuerpo_top {
   position: absolute;
-  top: 132px;
-  right: 33px;
-  height: 33px;
-  width: 66px;
+  top: 64%;
+  right: 9%;
+  height: 16%;
+  width: 18%;
   background-color: #c86b29;
 }
 
 .mancha52_cuerpo_top {
   position: absolute;
-  top: 132px;
+  top: 64%;
   right: 0;
-  height: 33px;
-  width: 33px;
+  height: 16%;
+  width: 9%;
   background-color: #bd611c;
 }
 
 .mancha6_cuerpo_top {
   position: absolute;
   bottom: 0;
-  left: 66px;
-  height: 35px;
-  width: 132px;
+  left: 18%;
+  height: 20%;
+  width: 36%;
   background-color: #bd611c;
 }
 
 .mancha61_cuerpo_top {
   position: absolute;
   bottom: 0;
-  right: 66px;
-  height: 35px;
-  width: 135px;
+  right: 9%;
+  height: 20%;
+  width: 37%;
   background-color: #c86b29;
 }
 
@@ -927,7 +932,7 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  height: 35px;
-  width: 66px;
+  height: 20%;
+  width: 18%;
   background-color: #bd611c;
 }
